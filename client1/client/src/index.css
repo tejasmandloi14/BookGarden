@@ -1,0 +1,250 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+
+.post{
+  background: url('https://images.pexels.com/photos/6847584/pexels-photo-6847584.jpeg?auto=compress&cs=tinysrgb&w=600') center center ;
+  border: 2px solid white;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 20px;
+  width: 380px;
+  display: flex;
+  flex-direction: column;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  /* flex-wrap: wrap; */
+  
+}
+
+.navbar-brand{
+  font-size: 30px;
+}
+
+.nav-head{
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 1px 10px 1px 10px;
+  font-style: italic;
+  font-weight: 25px;
+  color: white;
+  
+  
+}
+
+.active{
+  text-decoration: underline;
+}
+
+#my-book-data{
+  
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  margin: 100px;
+  margin-top: 0px;
+  margin-bottom: 100px;
+  font-weight: bold;
+  font-style: italic;
+  font-family:'Times New Roman', Times, serif;
+  margin-top: 20px;
+  color: white;
+}
+
+#container{
+  margin: 0px;
+  margin-top: 40px;
+  padding: 30px;
+  
+  /* background-color: white; */
+  /* background: url(./background.jpg) ; */
+
+  /* position: relative; */
+
+}
+
+
+.full-site{
+  background: url(./background.jpg) ;
+  /* background-attachment: fixed; */
+
+}
+
+nav{
+  margin: 0;
+  height: 50px;
+  /* background-color: white; */
+
+}
+
+.navbar-full{
+  /* background-color: white; */
+  position: relative;
+  margin-top: -28px;
+  background: url(./background.jpg) center  ;
+  height: 100px;
+  /* background: url(./background.jpg) ; */
+  margin-bottom: 0px;
+}
+
+.navbar{
+  margin: 20px 0px 0px 0px;
+  width: 100%;
+}
+
+
+
+h1{
+  word-wrap: normal;
+}
+
+.comments{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: small;
+  border: 1px solid grey;
+  background-color: rgb(246, 245, 177);
+  border-radius: 8px;
+  padding: 15px;
+  margin: 7px;
+}
+.allposts{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  word-wrap: normal;
+}
+
+.form{
+  /* border: 2px solid black; */
+  margin: 10px;
+  padding: 10px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.rating{
+  display: flex;
+}
+
+input{
+  margin: 3px;
+  padding: 3px;
+  margin-bottom: 10px;
+}
+
+textarea{
+  margin-bottom: 10px;
+  margin-top: 3px;
+}
+
+.full-form{
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-btn{
+  display: flex;
+  justify-content:space-around ;
+}
+
+button:hover{
+  cursor: pointer;
+}
+
+.form-all-btn{
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+}
+
+.signUp{
+  margin-top: 40px;
+}
+
+.form-signup{
+  display: flex;
+  flex-direction: column ;
+  justify-content: center;
+  align-items: center;
+  /* width: 200px; */
+  /* border: 2px solid black; */
+  margin: 10px;
+  padding: 10px;
+}
+
+
+.form-login{
+  display: flex;
+  flex-direction: column ;
+  justify-content: center;
+  align-items: center;
+  
+  margin: 10px;
+  padding: 10px;
+}
+.nav-link{
+  color: white;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+}
+
+.b{
+  font-weight:600;
+}
+
+.delbtn{
+  padding: 3px 5px 3px 5px;
+  border-radius: 6px;
+}
+
+.delbtn:hover{
+  background-color: rgb(211, 208, 208);
+}
+
+.admintxt{
+  color: red;
+}
+
+.signUp{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-head{
+  margin-bottom: 30px;
+  margin-top: 40px;
+  
+}
+
+.form-signup{
+  margin: 30px;
+}
+
+input{
+  border-radius: 5px;
+}
+
+.form{
+  background: url(./background_post.jpg);
+}
+
+
+@media (max-width:435px){
+  
+  .post{
+    margin-right: 30px
+  }
+
+  .full-site{
+    width: 200%;
+  }
+}
